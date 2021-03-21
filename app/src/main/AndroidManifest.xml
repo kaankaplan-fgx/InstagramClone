@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.InstagramClone">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Share.ShareActivity"></activity>
+        <activity android:name=".Search.SearchActivity" />
+        <activity android:name=".Profile.ProfileActivity" />
+        <activity android:name=".News.NewsActivity" />
+        <activity android:name=".Home.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
